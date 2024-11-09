@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.shop-wrapper {
+    padding: 9.5% 14% 50%;
+    background-color: #EDF6FF;
+}
+
+.shop {
+    position: relative;
+    height: 0;
+    padding-top: 200%;
+    background: url('../assets/img/shop.svg') center / contain no-repeat;
+}
+
+.cart-wrapper {
+    position: absolute;
+    top: 79%;
+    left: -14%;
+    width: 128%;
+    z-index: 10;
+}
+
+.goods {
+    position: absolute;
+    top: -2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+.shelf {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 30%;
+    gap: 2%;
+}
+
+.shelf._second,
+.shelf._third {
+    height: 20%;
+}
+
+.object {
+    position: absolute;
+    bottom: 0;
+}
+
+#juice {
+    width: 17%;
+    left: 11%;
+}
+
+#milk {
+    width: 17%;
+    left: 31%;
+}
+
+#jam {
+    width: 21%;
+    left: 49%;
+}
+
+#cheeze {
+    width: 17%;
+    left: 74%;
+    bottom: -2%;
+}
+
+#meat {
+    width: 25%;
+    left: 4%;
+    bottom: -5%;
+}
+
+#chicken {
+    width: 31%;
+    left: 27%;
+    bottom: -19%;
+}
+
+#snack {
+    width: 35%;
+    left: 61%;
+    bottom: -7%;
+}
+
+#pineapple {
+    width: 16%;
+    left: 7%;
+}
+
+#banana {
+    width: 21%;
+    left: 28%;
+}
+
+#apple {
+    width: 15%;
+    left: 54%;
+}
+
+#onion {
+    width: 29%;
+    left: 73%;
+    bottom: -6%;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    touch-action: none;
+}
+
+.button{
+    background-color: #FCE000;
+    display: flex;
+    position: absolute;
+    border-radius: 16px;
+    left: 10%;
+    bottom: -30%;
+    width: 80%;
+    height: 13%;
+    padding: 5% 8%;
+    z-index: 10;
+}
+
+.button:hover {
+    background-color: #fcd604;
+}
+
+.button._hidden {
+    display: none;
+}
+
+.listItems-wrapper {
+    position: absolute;
+    bottom: -20%;
+    left: 15%;
+    width: 90%;
+    height: 25%;
+}
+
+.listItems {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}

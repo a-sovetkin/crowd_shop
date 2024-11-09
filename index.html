@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Task: Yandex Croud. Перетащите продукты в корзину.</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="shop-wrapper" id="shopWrapper">
+        <div class="shop">
+            <div class="goods">
+                <div class="shelf _first" id="first">
+                    <img id="juice"  src="./assets/img/object_1.svg" class="pic object" title="juice">
+                    <img id="milk" src="./assets/img/object_2.svg" class="pic object" title="milk">
+                    <img id="jam" src="./assets/img/object_3.svg" class="pic object" title="jam">
+                    <img id="cheeze" src="./assets/img/object_4.svg" class="pic object" title="cheeze">
+                </div>
+                <div class="shelf _second" id="second">
+                    <img id="meat" src="./assets/img/object_5.svg" class="pic object" title="meat">
+                    <img id="chicken"  src="./assets/img/object_6.svg" class="pic object" title="chicken">
+                    <img id="snack" src="./assets/img/object_7.svg" class="pic object" title="snack">
+                </div>
+                <div class="shelf _third" id="third">
+                    <img id="pineapple" src="./assets/img/object_8.svg" class="pic object" title="pineapple">
+                    <img id="banana" src="./assets/img/object_9.svg" class="pic object" title="banana">
+                    <img id="apple" src="./assets/img/object_10.svg" class="pic object" title="apple">
+                    <img id="onion" src="./assets/img/object_11.svg" class="pic object" title="onion">
+                </div>
+            </div>
+            <div class="cart-wrapper">
+                <img src="./assets/img/cart.svg" id="cart" class="pic cart" title="cart" >
+            </div>
+            <div  class="listItems-wrapper">
+                <div id="listItems" class="listItems droppable"></div>
+            </div>
+            <a href="#" class="button _hidden">
+                <img src="./assets/img/title.svg" class="pic" title="Оплатить корзину">
+            </a>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
